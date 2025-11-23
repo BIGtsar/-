@@ -124,5 +124,5 @@ Examples:
         print(f"Unexpected error: {e}", file=sys.stderr)
         sys.exit(1)
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
